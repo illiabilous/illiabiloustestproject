@@ -1,0 +1,16 @@
+{
+    "baseUrl": "https://www.pecodesoftware.com/qa-portal/registerlogin/registerlogin.php",
+    "ignoreTestFiles": "**/integration/examples/*",
+    "viewportHeight": 1080,
+    "viewportWidth": 1920,
+    "reporter": "mochawesome",
+        "reporterOptions": {
+          "configFile": "reporter-config.json"
+        },
+
+    "env":{
+        "username" : "testuser1",
+        "password" : "testpassword1"
+    }
+
+}
